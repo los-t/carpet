@@ -14,6 +14,7 @@ echo "Hi $CURUSER. I'm going to create a new home for you at $HOMEPATH"
 
 if [ $RET -eq 0 ]; then ./setup/mkenv.sh; RET=$?; fi;
 if [ $RET -eq 0 ]; then ./setup/mkhome.sh $HOMEPATH; RET=$?; fi;
+if [ $RET -eq 0 ]; then ./setup/mkconf.sh $HOMEPATH; RET=$?; fi;
 
 if [ $RET -eq 0 ]; then
 	echo "All done in $HOMEPATH. Thank you."
