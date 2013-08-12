@@ -9,19 +9,21 @@ fi;
 
 cd $1
 
-mkdir -p bin
-mkdir -p doc/work
-mkdir -p dl
-mkdir -p man/gfx
-mkdir -p man/lang
-mkdir -p man/rfc
-mkdir -p media/book
-mkdir -p media/pod
-mkdir -p media/lectures
-mkdir -p prj/gfx
-mkdir -p prj/code/tmp
-mkdir -p prj/foto
-mkdir -p prj/music
-mkdir -p prj/www
+mkdir -vp bin
+mkdir -vp doc/work
+mkdir -vp doc/self
+mkdir -vp dl/aur
+mkdir -vp man/gfx
+mkdir -vp man/lang
+mkdir -vp man/rfc
+mkdir -vp media/book
+mkdir -vp media/pod
+mkdir -vp media/lectures
+mkdir -vp prj/gfx
+mkdir -vp prj/code/tmp
+mkdir -vp prj/foto
+mkdir -vp prj/music
+mkdir -vp prj/www
+mkdir -vp prj/cfg
 
 echo Directories set up.
