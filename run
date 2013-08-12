@@ -1,3 +1,22 @@
 #!/bin/sh
 
-echo "All done. Thank you."
+CURUSER=`whoami`
+HOMEPREFIX=/home
+RET=0
+
+if [ $# -gt 0 ]; then
+	HOMEPATH=$1;
+else
+	HOMEPATH=$HOMEPREFIX/$CURUSER;
+fi;
+
+echo "Hi $CURUSER. I'm going to create a new home for you at $HOMEPATH"
+
+if [ $RET -eq 0 ]; then ./setup/mkenv.sh; RET=$?; fi;
+if [ $RET -eq 0 ]; then ./setup/mkhome.sh $HOMEPATH; RET=$?; fi;
+
+if [ $RET -eq 0 ]; then
+	echo "All done in $HOMEPATH. Thank you."
+else
+	echo Something went wrong. Sorry.
+fi;
