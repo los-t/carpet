@@ -1,4 +1,5 @@
 #!/bin/sh
 
+rm -rf test/.*
 rm -rf test/*
 ./run test
