@@ -18,6 +18,7 @@ git clone $GITPATH $CFGPATH; RET=$?;
 ln -vs $CFGPATH/cfg/_profile $HOMEPATH/.profile
 ln -vs $CFGPATH/cfg/_bashrc $HOMEPATH/.bashrc
 ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc
+ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
 
 
 if [ $RET -eq 0 ]; then
