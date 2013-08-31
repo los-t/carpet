@@ -10,6 +10,7 @@ RET=0
 
 HOMEPATH=$1
 CFGPATH=$HOMEPATH/prj/cfg/$MYNAME
+XDGCFGPATH=$HOMEPATH/.config
 GITPATH=git@github.com:los-t/$MYNAME.git
 
 echo "Cloning self to $CFGPATH"
@@ -20,6 +21,9 @@ ln -vs $CFGPATH/cfg/_bashrc $HOMEPATH/.bashrc
 ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc
 ln -vs $CFGPATH/cfg/_zshenv $HOMEPATH/.zshenv
 ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
+
+mkdir -vp $XDGCFGPATH/i3
+ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
 
 
 if [ $RET -eq 0 ]; then
