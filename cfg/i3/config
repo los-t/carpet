@@ -181,8 +181,8 @@ client.background               #000000
 #############################################################
 # keyboard special keys                                     #
 #############################################################
-# Favourites key - lock the screen
-bindcode 174 exec i3lock -d -c 000000
+# Pause key - lock the screen
+bindcode 127 exec i3lock -d -c 000000
 
 # MPD Play/Pause toggle
 bindcode 172 exec mpc toggle
