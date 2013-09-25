@@ -18,13 +18,15 @@ git clone $GITPATH $CFGPATH; RET=$?;
 
 ln -vs $CFGPATH/cfg/_profile $HOMEPATH/.profile
 ln -vs $CFGPATH/cfg/_bashrc $HOMEPATH/.bashrc
-ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc
 ln -vs $CFGPATH/cfg/_zshenv $HOMEPATH/.zshenv
 ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
 
 mkdir -vp $XDGCFGPATH/i3
 ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
 
+ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc
+mkdir -vp $HOMEPATH/.vim/colors
+ln -vs $CFGPATH/cfg/vim/dgrin.vim $HOMEPATH/.vim/colors/dgrin.vim
 
 if [ $RET -eq 0 ]; then
 	echo Configuration created.
