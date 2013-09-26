@@ -1,9 +1,12 @@
 #!/bin/sh
 
 # A simple openvpn wrapper script to write pid-file
+# Since you will have to run this as root place your
+# configuration to /etc/openvpn/*.ovpn
 
 if [ $# -ne 1 ]; then
 	echo "Usage: `basename $0` configuration-name"
+	echo "The script assumes configuration stored in /etc/openvpn/*.ovpn"
 	exit 85
 fi
 
