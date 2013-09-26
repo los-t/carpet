@@ -1,0 +1,8 @@
+URxvt.depth: 32
+URxvt.background: #000000
+URxvt.foreground: #00FF00
+URxvt.scrollstyle: plain
+URxvt.scrollColor: #004400
+URxvt.saveLines: 2000
+URxvt.font: xft:monospace:pixelsize=12
+URxvt.buffered: false

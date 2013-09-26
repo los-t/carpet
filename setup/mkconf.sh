@@ -20,6 +20,7 @@ ln -vs $CFGPATH/cfg/_profile $HOMEPATH/.profile
 ln -vs $CFGPATH/cfg/_bashrc $HOMEPATH/.bashrc
 ln -vs $CFGPATH/cfg/_zshenv $HOMEPATH/.zshenv
 ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
+ln -vs $CFGPATH/cfg/_Xresources $HOMEPATH/.Xresources
 
 mkdir -vp $XDGCFGPATH/i3
 ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
