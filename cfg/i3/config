@@ -171,11 +171,11 @@ bar {
 #############################################################
 # BELOW GOES ANYTHING NOT PRESENT IN DEFAULT CONFIG         #
 #############################################################
-# color class           border  back    text
-client.focused          #081808 #101010 #44AA11
-client.focused_inactive #080808 #080808 #336600
-client.unfocused        #080808 #080808 #226600
-client.urgent           #ff9933 #ff9933 #660000
+# color class           border  back    text    indicator
+client.focused          #081808 #101010 #44AA11 #005f00
+client.focused_inactive #080808 #080808 #336600 #005f00
+client.unfocused        #080808 #080808 #226600 #005f00
+client.urgent           #ff9933 #ff9933 #660000 #005f00
 client.background               #000000
 
 #############################################################
