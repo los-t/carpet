@@ -25,6 +25,7 @@ mkdir -vp $XDGCFGPATH/i3
 ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
 
 mkdir -vp $XDGCFGPATH/i3status
+ln -vs $CFGPATH/bin/vpnto $HOMEPATH/bin/vpnto
 ln -vs $CFGPATH/cfg/i3status/config $XDGCFGPATH/i3status/config
 
 ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc

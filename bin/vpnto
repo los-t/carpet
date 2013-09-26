@@ -1,0 +1,10 @@
+#!/bin/sh
+
+# A simple openvpn wrapper script to write pid-file
+
+if [ $# -ne 1 ]; then
+	echo "Usage: `basename $0` configuration-name"
+	exit 85
+fi
+
+openvpn --config /etc/openvpn/$1.ovpn --writepid /var/run/vpnto-$1.pid
