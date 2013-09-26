@@ -24,6 +24,9 @@ ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
 mkdir -vp $XDGCFGPATH/i3
 ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
 
+mkdir -vp $XDGCFGPATH/i3status
+ln -vs $CFGPATH/cfg/i3status/config $XDGCFGPATH/i3status/config
+
 ln -vs $CFGPATH/cfg/_vimrc $HOMEPATH/.vimrc
 mkdir -vp $HOMEPATH/.vim/colors
 ln -vs $CFGPATH/cfg/vim/dgrin.vim $HOMEPATH/.vim/colors/dgrin.vim
