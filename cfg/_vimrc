@@ -33,6 +33,9 @@ set laststatus=2
 " QuickFix and Make
 set switchbuf=useopen,usetab,newtab
 
+" Autocomplete
+set pumheight=15
+
 " Clang complete
 let g:clang_auto_select=1
 let g:clang_close_preview=1
