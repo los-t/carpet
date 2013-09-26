@@ -14,6 +14,7 @@ dependencies
 Below goes a list of software you'll have to install on your own
 according to your Linux distribution rules and best-practices:
 
+- git
 - urxvt with 256 colors support and monospace font
 - i3
 - i3status

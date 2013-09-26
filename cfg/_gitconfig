@@ -1,0 +1,13 @@
+[color]
+	ui = always
+	diff = always
+	pager = true
+[user]
+	name = Vladimir Dranyonkov
+	email = los-t@ya.ru
+[push]
+	default = current
+[diff]
+	tool = vimdiff
+[color "diff"]
+	old = red

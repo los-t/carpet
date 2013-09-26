@@ -21,6 +21,7 @@ ln -vs $CFGPATH/cfg/_bashrc $HOMEPATH/.bashrc
 ln -vs $CFGPATH/cfg/_zshenv $HOMEPATH/.zshenv
 ln -vs $CFGPATH/cfg/_zshrc $HOMEPATH/.zshrc
 ln -vs $CFGPATH/cfg/_Xresources $HOMEPATH/.Xresources
+ln -vs $CFGPATH/cfg/_gitconfig $HOMEPATH/.gitconfig
 
 mkdir -vp $XDGCFGPATH/i3
 ln -vs $CFGPATH/cfg/i3/config $XDGCFGPATH/i3/config
