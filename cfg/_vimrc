@@ -35,6 +35,7 @@ set switchbuf=useopen,usetab,newtab
 
 " Autocomplete
 set pumheight=15
+set completeopt=menu,menuone
 
 " Clang complete
 let g:clang_auto_select=1
@@ -44,4 +45,8 @@ let g:clang_trailing_placeholder=1
 let g:clang_complete_macros=1
 let g:clang_complete_patterns=1
 let g:clang_periodic_quickfix=1
-let g:clang_complete_copen=1
+"let g:clang_complete_copen=1
+
+" Man pages
+runtime! ftplugin/man.vim
+nmap K :Man 3 <cword><CR>
