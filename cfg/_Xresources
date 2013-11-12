@@ -6,3 +6,4 @@ URxvt.scrollColor: #004400
 URxvt.saveLines: 2000
 URxvt.font: xft:monospace:pixelsize=12
 URxvt.buffered: false
+URxvt.pointerBlank: true
