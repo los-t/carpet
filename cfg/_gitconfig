@@ -4,7 +4,7 @@
 	pager = true
 [user]
 	name = Vladimir Dranyonkov
-	email = los-t@ya.ru
+	email = dummy@dranyonkov.info
 [push]
 	default = current
 [diff]
