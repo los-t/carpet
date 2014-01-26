@@ -12,6 +12,7 @@ ZSH_THEME="gallois"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi="vim"
 alias lsmnt="mount -l | column -t"
+alias pacman="pacman --color=auto"
 
 # Set to this to use case-sensitive completion
 # CASE_SENSITIVE="true"
