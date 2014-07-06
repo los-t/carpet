@@ -19,6 +19,7 @@ according to your Linux distribution rules and best-practices:
 - i3
 - i3status
 - dmenu
+- j4-dmenu-desktop
 - vim
 - zsh
 - oh-my-zsh
