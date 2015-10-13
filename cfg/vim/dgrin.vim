@@ -15,8 +15,10 @@ if exists("syntax_on")
   syntax reset
 endif
 
-hi LineNr              cterm=none         ctermfg=236    ctermbg=0
-hi CursorLineNr        cterm=underline    ctermfg=10     ctermbg=0
+hi LineNr              cterm=none         ctermfg=239    ctermbg=0
+hi CursorLineNr        cterm=none         ctermfg=10     ctermbg=235
+hi CursorLine          cterm=none                        ctermbg=235
+hi ColorColumn         cterm=none                        ctermbg=235
 
 hi Pmenu               cterm=none         ctermfg=71     ctermbg=234
 hi PmenuSel            cterm=underline    ctermfg=10     ctermbg=234
