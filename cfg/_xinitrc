@@ -1,7 +1,5 @@
-xrdb -merge ~/.Xresources
+xrdb -merge ~/.Xresources &
 
-setxkbmap -layout "us,ru" -option "grp:caps_toggle" -option "grp_led:scroll"
-
-. ~/bin/xrandr.sh
+setxkbmap -layout "us,ru" -option "grp:caps_toggle" -option "grp_led:scroll" &
 
 exec i3
