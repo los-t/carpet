@@ -1,5 +1,2 @@
 typeset -U path
-path=(/usr/local/sbin /usr/local/bin /usr/bin /usr/bin/core_perl ~/bin)
-
-export LS_COLORS='di=01;33'
-export EDITOR=vim
+path=(~/bin $path)
