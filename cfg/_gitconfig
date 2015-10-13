@@ -1,13 +1,8 @@
-[color]
-	ui = always
-	diff = always
-	pager = true
-[user]
-	name = Vladimir Dranyonkov
-	email = dummy@dranyonkov.info
 [push]
 	default = current
 [diff]
 	tool = vimdiff
 [color "diff"]
 	old = red
+	frag = cyan
+	meta = white
